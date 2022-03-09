@@ -53,7 +53,7 @@ let validTipe = (tipe) => {return tipe.toLowerCase() === 'mobil' || tipe.toLower
 // check even/odd no pol
 let isEvenPlat = (no_pol) => {
     var matches = no_pol.match(/(\d+)/);
-    return parseInt(matches) % 2 == 0 ? true : false;
+    return parseInt(matches) % 2 == 0;
 }
 
 // search vehicle by no pol
